@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap [fonts.googleapis.com]");
+
+:root {
+  --background-color: #dfc2f2;
+  --white: #ffffff;
+  --shadow-grey: #8d8a8a;
+  --font-family-title: "Bebas Neue", cursive;
+  --font-family-content: "EB Garamond", serif;
+  --font-family-price: "Farsan", cursive;
+  --btn-background-color: rgb(107, 107, 250);
+  --span-background-color: rgb(49, 49, 49);
+}

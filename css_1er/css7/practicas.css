@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fafafc;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 350px;
+  height: 430px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: #4a4a4e;
+  box-shadow: 0 0 5px 5px #d0d0d0;
+  transition: 400ms;
+}
+
+.image {
+  height: 40%;
+  background-size: cover;
+  overflow: hidden;
+}
+.image > img {
+  height: 200%;
+  width: 170%;
+}
+
+.content > h1 {
+  font-size: 25px;
+  padding: 15px 0 0 15px;
+  text-transform: capitalize;
+}
+.content > p {
+  text-align: center;
+  padding: 15px 15px 20px 0;
+}
+
+.content > span {
+  margin: 10px;
+  background: rgb(226, 217, 217);
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container:hover{
+  transform: scale(1.1) translate(-50%,-50%);
+}

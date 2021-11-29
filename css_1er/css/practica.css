@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #fdf1ec;
+}
+
+.caja1 {
+  background: white;
+  width: 60%;
+  height: 70%;
+  position: absolute;
+  margin: 10%;
+  box-shadow: 5px 5px 5px grey;
+  transition: 400ms;
+}
+
+.caja1 > img {
+  height: 100%;
+}
+
+.caja1 > div{
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  width: 50%;
+  text-align: center;
+}
+.caja1 > div > h1{
+  margin-bottom: 30px ;
+}
+
+.caja1 > :nth-child(3),
+.caja1 > div > span{
+  top: 75%;
+  padding-right: 45px;
+}
+
+.caja1:hover {
+  transform: scale(0.9);
+}

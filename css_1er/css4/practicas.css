@@ -1,0 +1,46 @@
+.wrapper {
+  width: 750px;
+  height: 350px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: grey;
+  color: white;
+}
+
+.btn {
+  display: none;
+}
+
+.lbl {
+  border: 2px solid black;
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.lbl:hover {
+  background: white;
+  color: black;
+}
+
+.content .content_1,
+.content .content_2,
+.content .content_3,
+.content .content_4,
+.content .content_5 {
+  padding: 50px;
+  display: none;
+}
+
+#btn_1:checked ~ .content .content_1,
+#btn_2:checked ~ .content .content_2,
+#btn_3:checked ~ .content .content_3,
+#btn_4:checked ~ .content .content_4,
+#btn_5:checked ~ .content .content_5 {
+  display: block;
+}

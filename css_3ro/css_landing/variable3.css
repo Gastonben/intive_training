@@ -1,0 +1,19 @@
+:root {
+  --background-image: url(https://p4.wallpaperbetter.com/wallpaper/504/627/694/abstracto-bosque-dark-noche-wallpaper-preview.jpg);
+  --background-body: grey;
+  --background-footer: rgb(29, 28, 28);
+  --background-even: rgb(92, 88, 88);
+  --color-footer: white;
+  --color-top-menu: white;
+  --color-title-odd: rgba(34, 48, 87, 0.76);
+  --color-title-even: rgb(192, 207, 209);
+  --color-section-even: white;
+  --color-banner: white;
+  --font-size-banner: 1.5rem;
+  --font-size-menu-top: 1.3rem;
+  --fon-size-content: 1.2rem;
+  --font-size-title-content: 3rem;
+  --font-size-footer: 2rem;
+  --hover-background-color: white;
+  --hover-color: black;
+}

@@ -1,0 +1,7 @@
+:root {
+  --background-image: url("https://images.unsplash.com/photo-1574007557239-acf6863bc375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+  --background-card: rgb(227, 233, 240);
+  --font-family: Arial, Helvetica, sans-serif;
+  --white: white;
+  --grey: grey;
+}

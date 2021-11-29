@@ -1,0 +1,6 @@
+/* aplica  a todo, "Global" */
+@import url(../global/global.css);
+/* desktop */
+@import url(../devices/desktop/desktop_600px.css) (min-width: 600px);
+/* mobile */
+@import url(../devices/mobile/mobile_599px.css) (max-width: 599px);

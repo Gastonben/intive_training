@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: var(--background-body);
+  overflow-x: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.boxes {
+  display: none;
+}
+
+#switch:checked ~ .boxes {
+  display: block;
+}
+
+.menu-top {
+  position: absolute;
+  z-index: 2;
+  width: 80%;
+  font-weight: bold;
+  background: none;
+  height: 80px;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  text-transform: uppercase;
+}
+
+.boxes {
+  font-size: var(--font-size-menu-top);
+  margin: 0 30px 0 0;
+}
+
+.menu-top a {
+  color: var(--color-top-menu);
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+.menu-top nav a:hover {
+  background: var(--hover-background-color);
+  color: var(--hover-color);
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-banner);
+  user-select: none;
+  height: 100vh;
+  font-size: var(--font-size-banner);
+}
+
+.bg-banner {
+  position: absolute;
+  z-index: -1;
+  background-image: var(--background-image);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+#home,
+#about,
+#news {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 150px;
+  height: 100vh;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 150px;
+  height: 85vh;
+}
+
+#home .content,
+#about .content,
+#news .content,
+#contact .content {
+  font-size: var(--fon-size-content);
+  word-spacing: 10px;
+  line-height: 45px;
+}
+
+section:nth-of-type(even) {
+  background: var(--background-even);
+  color: var(--color-section-even);
+}
+
+.title-odd,
+.title-even {
+  font-size: var(--font-size-title-content);
+  text-decoration: none;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.title-odd {
+  color: var(--color-title-odd);
+}
+.title-even {
+  color: var(--color-title-even);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  background: var(--background-footer);
+  color: var(--color-footer);
+  font-size: var(--font-size-footer);
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  user-select: none;
+}
+
+footer a {
+  color: var(--color-footer);
+  padding: 0 25px 0 0;
+}

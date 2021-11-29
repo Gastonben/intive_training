@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* :root {}  agregar*/
+
+main {
+  font-family: "Poppins", sans-serif;
+  color: #393a34;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+main > div {
+  display: flex;
+}
+
+.nav {
+  box-shadow: 0px 1px 10px 0px rgba(46, 45, 45, 0.281);
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: white;
+  height: 50px;
+  display: flex;
+  width: 100vw;
+}
+.nav a {
+  margin: 0 5px;
+  color: #393a34;
+}
+.icons {
+  padding: 0 90px 0 450px;
+}
+.icons > i {
+  margin: 3px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.content-1 {
+  padding: 0 38px 0 70px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-1 h1 {
+  padding: 20px 20px 20px 0;
+  font-size: 4rem;
+}
+.content-1 h1 > span:not(:last-child),
+.content-1 p::first-letter {
+  text-transform: capitalize;
+}
+.nav .crema,
+.content-1 h1 > span:last-child {
+  color: #d79491;
+}
+
+.content-1 > a{
+  font-size: 3rem;
+  color: black;
+}
+
+.nav .crema {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.bg-banner {
+  flex-basis: 49%;
+  height: 100vh;
+  background-image: url(https://inovatik.com/nico/images/header-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#about {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about > div {
+  text-align: center;
+  width: 60%;
+  height: 60%;
+}
+
+#about > div > img {
+  padding: 50px 50px 50px 0;
+  width: 110%;
+  height: 115%;
+}
+
+footer {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 150px 0 240px;
+}
+footer > div {
+  padding: 30px 0 50px 0;
+}

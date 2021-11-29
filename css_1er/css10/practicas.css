@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: inline-block;
+  height: 300px;
+  width: 250px;
+  transform: translate(100%, 50%);
+  background: white;
+  margin: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+  background: #f7f5ec;
+  font-family: tahoma;
+  transition: 380ms;
+  box-shadow: -10px 10px 15px -8px rgba(145,131,43,1);
+}
+
+.container img {
+  margin: 35px 5px 20px 5px;
+  border-radius: 100%;
+  border: 1px dotted rgb(68, 88, 107);
+}
+
+.container h1 {
+  font-weight: 400;
+}
+
+.container p {
+  margin: 5px 0 0 0;
+}
+
+.container:hover{
+  transform: scale(1.1) translate(90%, 50%);
+}

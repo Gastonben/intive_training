@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  li,a {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  main{
+    width: 100vw;
+  }
+
+  .top{
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    padding: 20px;
+  }
+
+  .nav,
+  .top {
+    display: flex;
+  }
+
+  .nav > li{
+      text-transform: capitalize;
+  }
+
+  .contact > a{
+      text-transform: uppercase;
+  }
+
+.header > h1 {
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav,
+.header,
+.six-box,
+.testimonials,
+main > h2,
+footer > div > span{
+    font-family: "Fraunces", serif;
+}
+
+main > h2{
+    text-transform: uppercase;
+    color:gray;
+    letter-spacing: 5px;
+}
+
+.top > span,
+  footer > h3 {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .six-box > .content-1 > h3{
+      text-decoration: underline yellow;
+  }
+  .six-box > .content-2 > h3{
+    text-decoration: underline pink;
+}
+
+  .six-box > .content-1 > h3,
+  .six-box > .content-2 > h3 {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+
+.spans  {
+      text-transform: capitalize;
+  }

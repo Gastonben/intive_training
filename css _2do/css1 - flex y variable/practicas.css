@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: var(--background-color);
+  font-family: var(--font-fam);
+}
+
+.content {
+  height: 325px;
+  width: 550px;
+  background: var(--white);
+  box-shadow: 0 0 20px 8px var(--box-shdaow-color);
+  border-radius: 10px;
+  padding: 80px 42px 0 45px;
+  word-spacing: 5px;
+}
+
+.content > h1 {
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+.content > h1,
+.content p::first-letter,
+.content p > span {
+  text-transform: capitalize;
+}

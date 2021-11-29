@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap [fonts.googleapis.com]");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #dfc2f2;
+}
+
+.container {
+  position: absolute;
+  height: 350px;
+  width: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 0 0 20px 8px #8d8a8a;
+  transition: 350ms;
+}
+
+.image {
+  float: right;
+  height: 100%;
+  width: 45%;
+}
+
+.image > img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  width: 55%;
+  padding: 30px 30px 30px 30px;
+  margin: 10px;
+}
+.content > h1 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.content > p {
+  font-family: "EB Garamond", serif;
+  margin: 20px 1px 0 0;
+}
+
+.content_2 {
+  position: absolute;
+  display: inline-block;
+  height: 50px;
+  background: rgb(49, 49, 49);
+  border: none;
+  border-radius: 10px;
+  top: 80%;
+  left: 12%;
+}
+
+.content_2 > span {
+  color: white;
+  margin: 10px;
+}
+
+.btn_end {
+  color: white;
+  background: rgb(107, 107, 250);
+  border: none;
+  height: 100%;
+  padding: 12px 18px 12px 30px;
+  border-radius: 0 10px 10px 0;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn_end::first-letter {
+  text-transform: capitalize;
+}
+
+span,
+button {
+  font-family: "Farsan", cursive;
+}
+
+.container:hover{
+  transform: scale(1.1) translate(-50%,-50%);
+}

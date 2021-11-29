@@ -1,0 +1,11 @@
+input[type="checkbox"] {
+  display: none;
+}
+
+.boxes {
+  display: none;
+}
+
+#switch:checked ~ .boxes {
+  display: block;
+}

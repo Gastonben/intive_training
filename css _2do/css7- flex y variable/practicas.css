@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* para cuando organice :root {} */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 850px;
+  height: 90%;
+}
+
+.title {
+  width: 850px;
+  border-bottom: 4px solid;
+  padding: 10px;
+}
+
+.left-div {
+  width: 18vw;
+  color: white;
+  height: 100%;
+  background: black;
+}
+
+.content {
+  width: 70vw;
+  height: 100%;
+  margin: 20px;
+  padding: 10px 0 0 15px;
+  font-size: 15px;
+}
+
+.content-gap {
+  margin: 10px;
+  height: 100%;
+  column-count: 2;
+  column-gap: 2;
+}

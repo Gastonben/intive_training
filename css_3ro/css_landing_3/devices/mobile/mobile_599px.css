@@ -1,0 +1,10 @@
+@viewport{
+    zoom: 1;
+    width: device-width;
+}
+
+.header > h1{
+    font-size: 5rem;
+    padding: 0 50px 0 50px;
+    color: brown;
+}
